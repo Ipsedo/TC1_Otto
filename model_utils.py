@@ -1,5 +1,5 @@
 from sklearn.metrics import f1_score, log_loss
-import numpy
+import numpy as np
 
 def evaluate_model(true_y, y_pred, y_pred_proba):
     score = f1_score(true_y, y_pred, average = 'weighted')
