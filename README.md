@@ -8,3 +8,13 @@ Challenge [Otto](https://www.kaggle.com/c/otto-group-product-classification-chal
 * `exploration_donnes.ipynb` : affichage d'informations utiles sur les données
 * `sklearn_grid_search.ipynb` : recherche d'hyper-paramètres pour différents modèles avec GridSearchCV
 * `soumission_kaggle.ipynb` : Entraînement de modèles pour la soumission Kaggle
+
+Il faut créer un dossier `res` et y placer les fichier `train.csv` et `test.csv` comme suivant :
+```
+TC1_Otto
+ |-- ...
+ |-- res
+      |-- train.csv
+      |-- test.csv
+      |-- ...
+```
